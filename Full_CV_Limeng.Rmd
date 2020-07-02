@@ -42,22 +42,22 @@ tribble(
  
 # Presentations
 
-2020 **Xie, L.**,Burridge,J., Klepp, N., Miller, J.,Lynch, J.P., Bucksch, A., **the 7th International Horticulture Research Conference**,  _Poster_: "Quantifying diversity of root architecture types within a genotype of common bean ( _Phaseolus vulgaris_ .L) ", Online  
+2020 **Xie, L.**,Burridge,J., Klepp, N., Miller, J.,Lynch, J.P., Bucksch, A., **the 7th International Horticulture Research Conference**,  _Poster_: Quantifying diversity of root architecture types within a genotype of common bean ( _Phaseolus vulgaris_ .L), Online  
 
-2019 **Xie, L.**, Bucksch, A., **International Plant Phenotyping Symposium**, _Poster_: "The shape of plants revealed: A shape theoretic perspective on statistics of trait measurements", Nanjing, China
+2019 **Xie, L.**, Bucksch, A., **International Plant Phenotyping Symposium**, _Poster_: The shape of plants revealed: A shape theoretic perspective on statistics of trait measurements, Nanjing, China
 
-2019 **Xie, L.**,Burridge,J., Klepp, N., Miller, J., Chutoe, C., Saengwilai, P., Lynch, J.P., Bucksch, A., **Crops Conference**, _Poster_:"The Phenotypic Spectrum: Identifying Whole Role Architecture Types in Genotypes of Common Bean ( _Phaseolus vulgaris_ .L)", Huntsville, AL 
+2019 **Xie, L.**,Burridge,J., Klepp, N., Miller, J., Chutoe, C., Saengwilai, P., Lynch, J.P., Bucksch, A., **Crops Conference**, _Poster_:The Phenotypic Spectrum: Identifying Whole Role Architecture Types in Genotypes of Common Bean ( _Phaseolus vulgaris_ .L), Huntsville, AL 
 
-2018 **Xie, L.**, Liu, S, Bucksch., A., **Plant Center Fall Retreat**, _Poster_: "Extracting Traits from 3D Models of Maize Root System Architecture", Unicoi State Park, GA  
+2018 **Xie, L.**, Liu, S, Bucksch., A., **Plant Center Fall Retreat**, _Poster_: Extracting Traits from 3D Models of Maize Root System Architecture", Unicoi State Park, GA  
 
-2017 **Xie, L.**, Klein, P., Crosby, K., & Jifon, J., **American Society of Horticultural Science Annual Meeting**, _Talk_: "Mapping Novel QTLs Associated with Root Morphological Traits in an Interspecific Tomato Population", Waikoloa, HI  
+2017 **Xie, L.**, Klein, P., Crosby, K., & Jifon, J., **American Society of Horticultural Science Annual Meeting**, _Talk_: "Mapping Novel QTLs Associated with Root Morphological Traits in an Interspecific Tomato Population, Waikoloa, HI  
 
 
-2016 **Xie, L.**, Klein, P., Crosby, K., & Jifon, J., **Annual Meeting of Texas Plant Protection Association**, _Poster_: "SNP Discovery and QTL Mapping for Root Related Traits in an Interspecific Tomato Population"", Bryan, TX 
+2016 **Xie, L.**, Klein, P., Crosby, K., & Jifon, J., **Annual Meeting of Texas Plant Protection Association**, _Poster_: SNP Discovery and QTL Mapping for Root Related Traits in an Interspecific Tomato Population, Bryan, TX 
 
-2015 **Xie, L.**, Crosby, K., & Jifon, J.,**Annual Meeting of Texas Plant Protection Association**, _Poster_: "Estimates of Genetic Variance for Drought Tolerance Traits in Tomato", Bryan, TX 
+2015 **Xie, L.**, Crosby, K., & Jifon, J.,**Annual Meeting of Texas Plant Protection Association**, _Poster_: Estimates of Genetic Variance for Drought Tolerance Traits in Tomato, Bryan, TX 
 
-2015 **Xie, L.**, Crosby, K., & Jifon, J., **American Society of Horticultural Science Annual Meeting**, _Poster_: "Estimates of Genetic Variance for Drought Tolerance Traits in Tomato", New Orleans, LA 
+2015 **Xie, L.**, Crosby, K., & Jifon, J., **American Society of Horticultural Science Annual Meeting**, _Poster_: Estimates of Genetic Variance for Drought Tolerance Traits in Tomato, New Orleans, LA 
 
 
 # Awards
