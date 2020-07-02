@@ -1,0 +1,244 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{414141}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Limeng (Momo) Xie}{}
+
+\address{Athens, GA, USA}
+
+\mobile{+1 443-691-8965}
+\email{\href{mailto:momosan@uga.edu}{\nolinkurl{momosan@uga.edu}}}
+\github{tomatopepper}
+\linkedin{Limeng (Momo) Xie}
+\twitter{happymomosan}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+% Templates for detailed entries
+% Arguments: what when with where why
+\usepackage{etoolbox}
+\def\detaileditem#1#2#3#4#5{%
+\cventry{#1}{#3}{#4}{#2}{\ifx#5\empty\else{\begin{cvitems}#5\end{cvitems}}\fi}\ifx#5\empty{\vspace{-4.0mm}}\else\fi}
+\def\detailedsection#1{\begin{cventries}#1\end{cventries}}
+
+% Templates for brief entries
+% Arguments: what when with
+\def\briefitem#1#2#3{\cvhonor{}{#1}{#3}{#2}}
+\def\briefsection#1{\begin{cvhonors}#1\end{cvhonors}}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {July, 2020}
+    {Limeng (Momo) Xie~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\section{Education}\label{education}
+
+\detailedsection{\detaileditem{Phd student in Plant Biology, GPA 4.00}{2018 - Present}{University of Georgia (UGA)}{Athens, GA}{\item{Advisor: Dr. Alexander Bucksch, Computational Plant Science Lab}}\detaileditem{Master in Horticultural Science, GPA 3.81}{2014 - 2016}{Texas A\&M University (TAMU)}{College Station, TX}{\item{Certificate in Applied Statistics}\item{Advisors: Dr.Kevin Crosby \& Dr.John Jifon, Vegetable Breeding Lab}\item{Thesis: SNP Discovery and Mapping QTLs Associated with Root Traits and Morphological Traits in Tomato}}\detaileditem{Bachelor in Agronomy, GPA 3.65}{2009 - 2014}{China Agricultural University (CAU)}{Beijing, China}{\item{Thesis: Evaluation of Methane Production in Anaerobic Reactor with Sweet Potato Vine and Dairy Manure}}\detaileditem{Exchange Student}{2011 - 2012}{Saga University}{Kyushu, Japan}{\item{Major in Plant` Science and Japanese}}}
+
+\section{Publications}\label{publications}
+
+\textbf{Xie, L.},Burridge,J., Klepp, N., Miller, J., Lynch, J.P.,
+Bucksch, A., Phenotypic spectrum: uncovering root architecture diversity
+in common bean (\emph{Phaseolus vulgaris L.}) \emph{In prep}
+
+\textbf{Xie, L.}, Klein, P., Crosby, K., \& Jifon, J. (2019). A
+Genotyping-by-sequencing Single Nucleotide Polymorphismâ``based Map and
+Genetic Analysis of Root Traits in an Interspecific Tomato Population,
+\emph{Journal of the American Society for Horticultural Science} 144(6),
+394-404.
+
+\section{Presentations}\label{presentations}
+
+2020 \textbf{Xie, L.},Burridge,J., Klepp, N., Miller, J.,Lynch, J.P.,
+Bucksch, A., \textbf{the 7th International Horticulture Research
+Conference}, \emph{Poster}: ``Quantifying diversity of root architecture
+types within a genotype of common bean ( \emph{Phaseolus vulgaris}
+.L)'', Online
+
+2019 \textbf{Xie, L.}, Bucksch, A., \textbf{International Plant
+Phenotyping Symposium}, \emph{Poster}: ``The shape of plants revealed: A
+shape theoretic perspective on statistics of trait measurements'',
+Nanjing, China
+
+2019 \textbf{Xie, L.},Burridge,J., Klepp, N., Miller, J., Chutoe, C.,
+Saengwilai, P., Lynch, J.P., Bucksch, A., \textbf{Crops Conference},
+\emph{Poster}:``The Phenotypic Spectrum: Identifying Whole Role
+Architecture Types in Genotypes of Common Bean ( \emph{Phaseolus
+vulgaris} .L)'', Huntsville, AL
+
+2018 \textbf{Xie, L.}, Liu, S, Bucksch., A., \textbf{Plant Center Fall
+Retreat}, \emph{Poster}: âExtracting Traits from 3D Models of Maize
+Root System Architectureâ, Unicoi State Park, GA
+
+2017 \textbf{Xie, L.}, Klein, P., Crosby, K., \& Jifon, J.,
+\textbf{American Society of Horticultural Science Annual Meeting},
+\emph{Talk}: ``Mapping Novel QTLs Associated with Root Morphological
+Traits in an Interspecific Tomato Population'', Waikoloa, HI
+
+2016 \textbf{Xie, L.}, Klein, P., Crosby, K., \& Jifon, J.,
+\textbf{Annual Meeting of Texas Plant Protection Association},
+\emph{Poster}: âSNP Discovery and QTL Mapping for Root Related Traits
+in an Interspecific Tomato Populationâ, Bryan, TX
+
+2015 \textbf{Xie, L.}, Crosby, K., \& Jifon, J.,\textbf{Annual Meeting
+of Texas Plant Protection Association}, \emph{Poster}: âEstimates of
+Genetic Variance for Drought Tolerance Traits in Tomatoâ, Bryan, TX
+
+2015 \textbf{Xie, L.}, Crosby, K., \& Jifon, J., \textbf{American
+Society of Horticultural Science Annual Meeting}, \emph{Poster}:
+âEstimates of Genetic Variance for Drought Tolerance Traits in
+Tomatoâ, New Orleans, LA
+
+\section{Awards}\label{awards}
+
+2020 Jaworski Travel Award, Department of Plant Biology, UGA\\
+2020 Travel Scholarship for Root Short Course, University of Floria\\
+2016 Outstanding Graduate Student Award, Texas Plant Protection
+Association\\
+2013 Third Prize Scholarship for Academic Excellence, CAU\\
+2012 Japan Student Service Scholarship, Japan Student Service
+Organization\\
+2011 Third Prize Scholarship for Academic Excellence, CAU\\
+2010 Second Prize Scholarship for Academic Excellenc, CAU\\
+2010 National Scholarship for Encouragement, Ministry of Education in
+China\\
+2010 Merit Undergrate Student Award, CAU
+
+\section{Resarch Experience}\label{resarch-experience}
+
+\detailedsection{\detaileditem{Graduate Reserch Assistant}{2018 - Present}{Computational Plant Science Lab, UGA}{Athens, GA}{\item{Current project: The phenotypic spectrum: quantifying the diversity of root architecture in common bean}\item{Rotation projects: Developed an image processing pipeline to automatically extract root traits from 3D models of maize root system}\item{Rotation projects: Identified potential genetic regions with insulators in Bladderwort by analyzing a public RNA-sea database}\item{Rotation projects: Explored genetic variation of volatile content among 150 tomato accessions (wild, semi-domesticated, domesticated).}}\detaileditem{Lab Techician}{2017}{Vegetable Breeding Lab, TAMU}{College Station, TX}{\item{Conducted all daily operations including plant, fertilize, trellis, prune, IPM, supplies and asset acquisition to complete short term and long breeding  goals over 7 greenhouses and acre-size field}\item{Established greenhouse trials of grafted tomatoes to study yield performance in relation to various rootstock and scion combinations}\item{Screened pepper hybrids for thrip resistance and performed hybrid testing at multiple locations across Texas}\item{Crossed pepper, tomato, melon and squash to produce hybrid seed.}}\detaileditem{Graduate Research Assistant}{2014-2016}{Vegetable Breeding Lab, TAMU}{College Station, TX}{\item{Measure morphological root traits using the WinRhizo software}\item{Extracted, purified, and quantified tomato DNA for GBS library}\item{Constructed linkage map for mapping population using R/qtl, AsMap, and Joinmap}\item{Mapped 29 QTLs for 12 root and shoot traits using R/qtl, WinQTLCartographer, MapQTL and QTLNetworks}}\detaileditem{Undergraduate Research Assistant}{2012-2014}{Biomass Engineering Lab, CAU}{Beijing, China}{\item{Reutilized agricultural wastse, e.g. dairy manure and sweetpotato vine, into clean and renewable energy}\item{Evaluated the volatile fat acid of effluent using HPLC}\item{Observed dairy manure and sweetpotato vine at a ration of 2:8 could have  as stable methane production}}}
+
+\section{Teaching \& Mentoring}\label{teaching-mentoring}
+
+\detailedsection{\detaileditem{Teaching Assistant}{2019 Fall}{University of Georgia}{Athens, GA}{\item{Concepts in Biology (BIOL1103), ~70 students}\item{Presented lectures for 3 lab session during semester}\item{Lead field trip and graded assigned homework for class}\item{Achieved overall student approval rating of 4.38 on 5 point scale}}\detaileditem{Mentor}{2020 Summer}{University of Georgia}{Athens, GA}{\item{Lilly Adams, REU Project: Developing a new image processing pipeline to extract root trait of Arabidopsis and identifying candidate genes for root traits from GWAS}\item{Joslyn Mcklveen, CURO Project: Analyze the effect of temperature and humidity on plant development on a newly-developed mesocosm system}}\detaileditem{Mentor}{May 2017 - Dec 2017}{Texas A\&M University}{College Station, TX}{\item{Trained 8 undergraduates of pepper and tomato breeding}}}
+\pagebreak
+
+\section{Agricultural Extension}\label{agricultural-extension}
+
+\detailedsection{\detaileditem{Intern}{Aug 2011}{Center for Chinese Agricultural Policy (CCAP)}{Beijing, China}{\item{Participated the Farmer Field School Promotion Project led by CCAP, Ministry of Agriculture, and Rand Corporation (US)}\item{Investigated application of pesticides and fertilizers in tomato productions in Hubei Province}\item{Surveyed farmers in three villages and analyzed the questionare data}}\detaileditem{Co-leader, Summer Field Program}{June 2011}{China Agricultural University}{Beijing, China}{\item{Investigated the overuse of additives in the daylily industry in Qidong County}\item{Surveyed with local farmers and small business owners (>200 people)}\item{Presented results to the local government and appeared on the local media}\item{Organized a workshop introducing alternative methods to preserve daylily for farmers }\item{Won the Excellent Investigators Team Award }}}
+
+\section{Synergistic Activities}\label{synergistic-activities}
+
+2020 Judge Lead for Junior Section of 72nd Georgia Science \&
+Engineering Fair\\
+2019 Executive Board Member of Chinese Genomics Online Meet-up
+\textbar{} Responsible for inviting guest speakers and technical support
+for live stream 2018 Volunteer for March for Science at Washington, DC\\
+2015 Secretary, Texas A\&M Horticulture Graduate Student Council\\
+2015 Volunteer, Texas A\&M Plant Breeding Symposium\\
+2012 Spearker, Introduction of Chinese Culture with local schools in
+Ichikikushikino-shi, kagoshima, Japan\\
+2011 CAU Ambassador, Student representative for university-wide foreign
+affair activities, CAU\\
+2010 Scrum Half Player of College Rugby Team \textbar{} Won the
+plateclass champion of college wide games, CAU\\
+2010 Volunteer, Elder Care Center \textbar{} Helped take care of senior
+people monthly, Beijing\\
+2009 Tutor for a group of middle school students and several high school
+students in science courses, Qimen \& Beijing
+
+\section{Professional Affiliations}\label{professional-affiliations}
+
+Member, Botanical Society of America\\
+Member, American Association for Advancement of Science\\
+Member, Phi Alpha Xi Honor Society\\
+Member, American Society of Horticultural Science
+
+\section{Skills}\label{skills}
+
+\textbf{Bioinformatics}: NGS (GBS, RNA-Seq), Reads Alignment (Bowtie,
+GSNAP), SNP Calling (Tophat, VCF Tools, SamTools), Gene Expression
+Analysis (Cufflinks)\\
+\textbf{Quantitative and Population Genetics}: Polygenetic Tree, QTL
+mapping, Marker Assistant Selection, Clustering, Principle Component
+Analysis\\
+\textbf{Computer and Data Sciences}: Linux/Unix, Python (Pandas, Numpy,
+OpenCV, Sci-py, Jupyter Notebooks), R (R/qtl, ggplot2, Rmarkdown,
+Tidyverse), SQL (MariaDB, Dbeaver), Github\\
+\textbf{Language Skills}: Chinese (Native), English (Fluent), Japanese
+(Basic)
+
+\end{document}
