@@ -1,0 +1,144 @@
+---
+name: Limeng (Momo) Xie 
+date: "`r format(Sys.time(), '%B, %Y')`"
+address: Athens, GA, USA
+phone: +1 443-691-8965
+email: momosan@uga.edu
+github: tomatopepper
+linkedin: Limeng (Momo) Xie
+twitter: happymomosan
+headcolor: 414141
+output: 
+  vitae::awesomecv:
+    keep_tex: true
+    format: word 
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(vitae)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Education
+```{r education}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "Phd student in Plant Biology, GPA 4.00", "University of Georgia (UGA)", "Athens, GA", "2018 - Present", "Advisor: Dr. Alexander Bucksch, Computational Plant Science Lab",
+  "Master in Horticultural Science, GPA 3.81", "Texas A&M University (TAMU)", "College Station, TX", "2014 - 2016", "Certificate in Applied Statistics",
+   "Master in Horticultural Science, GPA 3.81", "Texas A&M University (TAMU)", "College Station, TX", "2014 - 2016","Advisors: Dr.Kevin Crosby & Dr.John Jifon, Vegetable Breeding Lab",
+   "Master in Horticultural Science, GPA 3.81", "Texas A&M University (TAMU)", "College Station, TX", "2014 - 2016", "Thesis: SNP Discovery and Mapping QTLs Associated with Root Traits and Morphological Traits in Tomato",
+  "Bachelor in Agronomy, GPA 3.65", "China Agricultural University (CAU)", "Beijing, China", "2009 - 2014", "Thesis: Evaluation of Methane Production in Anaerobic Reactor with Sweet Potato Vine and Dairy Manure",
+  "Exchange Student", "Saga University", "Kyushu, Japan", "2011 - 2012", "Major in Plant` Science and Japanese"
+) %>%
+  detailed_entries(degree, dates, uni, loc, details)
+```
+
+# Publications
+**Xie, L.**,Burridge,J., Klepp, N., Miller, J., Lynch, J.P., Bucksch, A.,  Phenotypic spectrum: uncovering root architecture diversity in common bean (*Phaseolus vulgaris L.*) *In prep*  
+
+**Xie, L.**, Klein, P., Crosby, K., & Jifon, J. (2019). A Genotyping-by-sequencing Single Nucleotide Polymorphism Map and Genetic Analysis of Root Traits in an Interspecific Tomato Population, _Journal of the American Society for Horticultural Science_ 144(6), 394-404. 
+
+
+ 
+# Presentations
+
+2020 **Xie, L.**,Burridge,J., Klepp, N., Miller, J.,Lynch, J.P., Bucksch, A., **the 7th International Horticulture Research Conference**,  _Poster_: Quantifying diversity of root architecture types within a genotype of common bean ( _Phaseolus vulgaris_ .L), Online  
+
+2019 **Xie, L.**, Bucksch, A., **International Plant Phenotyping Symposium**, _Poster_: The shape of plants revealed: A shape theoretic perspective on statistics of trait measurements, Nanjing, China
+
+2019 **Xie, L.**,Burridge,J., Klepp, N., Miller, J., Chutoe, C., Saengwilai, P., Lynch, J.P., Bucksch, A., **Crops Conference**, _Poster_:The Phenotypic Spectrum: Identifying Whole Role Architecture Types in Genotypes of Common Bean ( _Phaseolus vulgaris_ .L), Huntsville, AL 
+
+2018 **Xie, L.**, Liu, S, Bucksch., A., **Plant Center Fall Retreat**, _Poster_: Extracting Traits from 3D Models of Maize Root System Architecture", Unicoi State Park, GA  
+
+2017 **Xie, L.**, Klein, P., Crosby, K., & Jifon, J., **American Society of Horticultural Science Annual Meeting**, _Talk_: "Mapping Novel QTLs Associated with Root Morphological Traits in an Interspecific Tomato Population, Waikoloa, HI  
+
+
+2016 **Xie, L.**, Klein, P., Crosby, K., & Jifon, J., **Annual Meeting of Texas Plant Protection Association**, _Poster_: SNP Discovery and QTL Mapping for Root Related Traits in an Interspecific Tomato Population, Bryan, TX 
+
+2015 **Xie, L.**, Crosby, K., & Jifon, J.,**Annual Meeting of Texas Plant Protection Association**, _Poster_: Estimates of Genetic Variance for Drought Tolerance Traits in Tomato, Bryan, TX 
+
+2015 **Xie, L.**, Crosby, K., & Jifon, J., **American Society of Horticultural Science Annual Meeting**, _Poster_: Estimates of Genetic Variance for Drought Tolerance Traits in Tomato, New Orleans, LA 
+
+
+# Awards
+2020 Jaworski Travel Award, Department of Plant Biology, UGA  
+2020 Travel Scholarship for Root Short Course, University of Floria  
+2016 Outstanding Graduate Student Award, Texas Plant Protection Association  
+2013 Third Prize Scholarship for Academic Excellence, CAU  
+2012 Japan Student Service Scholarship, Japan Student Service Organization  
+2011 Third Prize Scholarship for Academic Excellence, CAU  
+2010 Second Prize Scholarship for Academic Excellenc, CAU  
+2010 National Scholarship for Encouragement, Ministry of Education in China  
+2010 Merit Undergrate Student Award, CAU 
+
+# Research Experience 
+```{r research}
+tribble(
+  ~ positon, ~ uni, ~ loc, ~ dates, ~ details,
+  "Graduate Reserch Assistant", "Computational Plant Science Lab, UGA", "Athens, GA", "2018 - Present", "Current project: The phenotypic spectrum: quantifying the diversity of root architecture in common bean",
+  "Graduate Reserch Assistant", "Computational Plant Science Lab, UGA", "Athens, GA", "2018 - Present", "Rotation projects: Developed an image processing pipeline to automatically extract root traits from 3D models of maize root system",
+   "Graduate Reserch Assistant", "Computational Plant Science Lab, UGA", "Athens, GA", "2018 - Present", "Rotation projects: Identified potential genetic regions with insulators in Bladderwort by analyzing a public RNA-sea database",
+  "Graduate Reserch Assistant", "Computational Plant Science Lab, UGA", "Athens, GA", "2018 - Present", "Rotation projects: Explored genetic variation of volatile content among 150 tomato accessions (wild, semi-domesticated, domesticated).",
+  "Lab Techician", "Vegetable Breeding Lab, TAMU", "College Station, TX", "2017", "Conducted all daily operations including plant, fertilize, trellis, prune, IPM, supplies and asset acquisition to complete short term and long breeding  goals over 7 greenhouses and acre-size field",
+  "Lab Techician", "Vegetable Breeding Lab, TAMU", "College Station, TX", "2017", "Established greenhouse trials of grafted tomatoes to study yield performance in relation to various rootstock and scion combinations",
+  "Lab Techician","Vegetable Breeding Lab, TAMU", "College Station, TX", "2017", "Screened pepper hybrids for thrip resistance and performed hybrid testing at multiple locations across Texas",
+  "Lab Techician", "Vegetable Breeding Lab, TAMU", "College Station, TX", "2017", "Crossed pepper, tomato, melon and squash to produce hybrid seed.",
+  )%>%
+detailed_entries(positon, dates, uni, loc, details)
+```
+
+# Teaching & Mentoring
+
+```{r tutoring}
+tribble(
+  ~ role, ~ uni, ~ campus, ~ dates, ~ details,
+  "Teaching Assistant", "University of Georgia", "Athens, GA", "2019 Fall", "Concepts in Biology (BIOL1103), ~70 students",
+  "Teaching Assistant", "University of Georgia", "Athens, GA", "2019 Fall", "Presented lectures for 3 lab session during semester",
+   "Teaching Assistant", "University of Georgia", "Athens, GA", "2019 Fall", "Lead field trip and graded assigned homework for class",
+   "Teaching Assistant", "University of Georgia", "Athens, GA", "2019 Fall", "Achieved overall student approval rating of 4.38 on 5 point scale",
+  "Mentor", "University of Georgia", "Athens, GA", "2020 Summer", "Lilly Adams, REU Project: Developing a new image processing pipeline to extract root trait of Arabidopsis and identifying candidate genes for root traits from GWAS",
+  "Mentor", "University of Georgia", "Athens, GA", "2020 Summer", "Joslyn Mcklveen, CURO Project: Analyze the effect of temperature and humidity on plant development on a newly-developed mesocosm system",
+  "Mentor", "Texas A&M University", "College Station, TX", "May 2017 - Dec 2017", "Trained 8 undergraduates of pepper and tomato breeding"
+) %>% 
+  detailed_entries(role, dates, uni, campus, details)
+```
+<!-- \pagebreak -->
+
+<!-- # Agricultural Extension -->
+<!-- ```{r extension} -->
+<!-- tribble( -->
+<!--   ~ positon, ~ uni, ~ loc, ~ dates, ~ details, -->
+<!--   "Intern", "Center for Chinese Agricultural Policy (CCAP)", "Beijing, China", "Aug 2011", "Participated the Farmer Field School Promotion Project led by CCAP, Ministry of Agriculture, and Rand Corporation (US)", -->
+<!--    "Intern", "Center for Chinese Agricultural Policy (CCAP)", "Beijing, China", "Aug 2011", "Investigated application of pesticides and fertilizers in tomato productions in Hubei Province", -->
+<!--      "Intern", "Center for Chinese Agricultural Policy (CCAP)", "Beijing, China", "Aug 2011", "Surveyed farmers in three villages and analyzed the questionare data", -->
+<!--   "Co-leader, Summer Field Program", "China Agricultural University", "Beijing, China", "June 2011", "Investigated the overuse of additives in the daylily industry in Qidong County", -->
+<!--     "Co-leader, Summer Field Program", "China Agricultural University", "Beijing, China", "June 2011", "Surveyed with local farmers and small business owners (>200 people)", -->
+<!--     "Co-leader, Summer Field Program", "China Agricultural University", "Beijing, China", "June 2011", "Presented results to the local government and appeared on the local media", -->
+<!--    "Co-leader, Summer Field Program", "China Agricultural University", "Beijing, China", "June 2011", "Organized a workshop introducing alternative methods to preserve daylily for farmers ", -->
+<!--   "Co-leader, Summer Field Program", "China Agricultural University", "Beijing, China", "June 2011", "Won the Excellent Investigators Team Award ", -->
+<!--   )%>% -->
+<!-- detailed_entries(positon, dates, uni, loc, details) -->
+<!-- ``` -->
+
+# Synergistic Activities
+2020   Judge Lead for Junior Section of 72nd Georgia Science & Engineering Fair  
+2019   Judge for Senior Section of 72nd Georgia Science & Engineering Fair  
+2019   Executive Board Member of Chinese Genomics Online Meet-up | Responsible for inviting guest speakers and technical support for live stream 2018   Volunteer for March for Science at Washington, DC  
+2015   Secretary, Texas A&M Horticulture Graduate Student Council  
+2015   Volunteer, Texas A&M Plant Breeding Symposium  
+2012   Spearker, Introduction of Chinese Culture with local schools in Ichikikushikino-shi, kagoshima, Japan  
+2011   CAU Ambassador, Student representative for university-wide foreign affair activities, CAU  
+2010   Scrum Half Player of College Rugby Team | Won the plateclass champion of college wide games, CAU  
+
+<!-- # Professional Affiliations  -->
+<!-- Member, Botanical Society of America   -->
+<!-- Member, American Association for Advancement of Science   -->
+<!-- Member, Phi Alpha Xi Honor Society   -->
+<!-- Member, American Society of Horticultural Science    -->
+
+<!-- # Skills -->
+<!-- **Bioinformatics**: NGS (GBS, RNA-Seq), Reads Alignment (Bowtie, GSNAP), SNP Calling (Tophat, VCF Tools, SamTools), Gene Expression Analysis (Cufflinks)   -->
+<!-- **Quantitative and Population Genetics**: Polygenetic Tree, QTL mapping, Marker Assistant Selection, Clustering, Principle Component Analysis   -->
+<!-- **Computer and Data Sciences**: Linux/Unix, Python (Pandas, Numpy, OpenCV, Sci-py, Jupyter Notebooks), R (R/qtl, ggplot2, Rmarkdown, Tidyverse), SQL (MariaDB, Dbeaver), Github   -->
+<!-- **Language Skills**: Chinese (Native), English (Fluent), Japanese (Basic) -->

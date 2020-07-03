@@ -129,6 +129,7 @@ detailed_entries(positon, dates, uni, loc, details)
 
 # Synergistic Activities
 2020   Judge Lead for Junior Section of 72nd Georgia Science & Engineering Fair  
+2019   Judge for Senior Section of 72nd Georgia Science & Engineering Fair  
 2019   Executive Board Member of Chinese Genomics Online Meet-up | Responsible for inviting guest speakers and technical support for live stream 2018   Volunteer for March for Science at Washington, DC  
 2015   Secretary, Texas A&M Horticulture Graduate Student Council  
 2015   Volunteer, Texas A&M Plant Breeding Symposium  
