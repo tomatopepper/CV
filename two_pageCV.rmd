@@ -15,7 +15,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-library(tidyverse)
+library(dplyr)
 library(vitae)
 knitr::opts_chunk$set(echo = FALSE)
 ```
