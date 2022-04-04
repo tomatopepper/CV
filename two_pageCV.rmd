@@ -35,13 +35,26 @@ tribble(
 ```
 
 # Publications
-**Xie, L.**,Burridge,J., Klepp, N., Miller, J., Lynch, J.P., Bucksch, A.,  Phenotypic spectrum: uncovering root architecture diversity in common bean (*Phaseolus vulgaris L.*) *In prep*  
+
+**Xie, L.**,Burridge,J., Klepp, N., Miller, J., Lynch, J.P., Bucksch, A.,  Phenotypic spectrum: uncovering root architecture diversity in common bean (*Phaseolus vulgaris L.*) *In prep* 
+
+Delory, B.M., Hernandez-Soriano, M.C., Wacker, T.S., Dimitrova, A., Ding, Y., Greeley, L.A., Ng, J.L.P., Mesa-Marín, J., **Xie, L.**, Zheng, C. and York, L.M., (2022). A snapshot of the root phenotyping landscape in 2021. bioRxiv. (Submitted to New Phytologist, under revision)
 
 **Xie, L.**, Klein, P., Crosby, K., & Jifon, J. (2019). A Genotyping-by-sequencing Single Nucleotide Polymorphism Map and Genetic Analysis of Root Traits in an Interspecific Tomato Population, _Journal of the American Society for Horticultural Science_ 144(6), 394-404. 
 
 
  
 # Presentations
+
+2022 Xie, L.,Burridge,J., Lynch, J.P., Bucksch, A., **North American Plant Phenotyping Network Annual Conference**, _Oral_: Phenotypic Spectrum: Uncovering Root Architecture Diversity in Common Bean ( _Phaseolus vulgaris_ .L), Athens, GA    
+
+2021 **Xie, L.**,Burridge,J., Lynch, J.P., Bucksch, A., **ASA, CSSA, SSSA International Annual Meeting**,  _Oral_: Phenotypic Spectrum: Uncovering Root Architecture Diversity in Common Bean ( _Phaseolus vulgaris_ .L), Salt Lake City, UT
+
+2021 Kim, C., **Xie, L.**, Bucksch, A., Seymore, L., Van Iersel, M., **American Society of Horticultural Science Annual Meeting**, _Poster_:Quantification of Canopy Size Using Automated Chlorophyll Florescence Image Analysis, Denver, CO
+
+2021 **Xie, L.**,Burridge,J., Lynch, J.P., Bucksch, A., **North American Plant Phenotyping Network Annual Conference**,  _Poster_: Phenotypic Spectrum: Uncovering Root Architecture Diversity in Common Bean ( _Phaseolus vulgaris_ .L), Online
+
+2020 Xie, L., Burridge,J., Klepp, N., Miller, J.,Lynch, J.P., Bucksch, A.,  **9th International Conference on FUNCTIONAL-STRUCTURAL PLANT MODELS, FSPM Towards Computable Plants**, _Poster_: Phenotypic spectrum: quantifying diversity of root architectures within genotypes on the example common bean ( _Phaseolus vulgaris_ .L), Online
 
 2020 **Xie, L.**,Burridge,J., Klepp, N., Miller, J.,Lynch, J.P., Bucksch, A., **the 7th International Horticulture Research Conference**,  _Poster_: Quantifying diversity of root architecture types within a genotype of common bean ( _Phaseolus vulgaris_ .L), Online  
 
@@ -53,24 +66,23 @@ tribble(
 
 2017 **Xie, L.**, Klein, P., Crosby, K., & Jifon, J., **American Society of Horticultural Science Annual Meeting**, _Talk_: "Mapping Novel QTLs Associated with Root Morphological Traits in an Interspecific Tomato Population, Waikoloa, HI  
 
-
-2016 **Xie, L.**, Klein, P., Crosby, K., & Jifon, J., **Annual Meeting of Texas Plant Protection Association**, _Poster_: SNP Discovery and QTL Mapping for Root Related Traits in an Interspecific Tomato Population, Bryan, TX 
-
-2015 **Xie, L.**, Crosby, K., & Jifon, J.,**Annual Meeting of Texas Plant Protection Association**, _Poster_: Estimates of Genetic Variance for Drought Tolerance Traits in Tomato, Bryan, TX 
-
 2015 **Xie, L.**, Crosby, K., & Jifon, J., **American Society of Horticultural Science Annual Meeting**, _Poster_: Estimates of Genetic Variance for Drought Tolerance Traits in Tomato, New Orleans, LA 
 
 
-# Awards
-2020 Jaworski Travel Award, Department of Plant Biology, UGA  
-2020 Travel Scholarship for Root Short Course, University of Floria  
+# Honors and Awards
+2022 Best Fast-Forward Talk Award at North American Plant Phenotyping Network Annual Conference
+2022 Gerald O. Mott Award, Crop Science Society of America
+2021 Best Poster Award at Phenomics and Plant Robotics Center Symposium, UGA
+2021 Graduate Education Advancement Graduate Fellowship, Graduate School, UGA
+2020 Palfrey Travel Award, Department of Plant Biology, UGA  
+2020 Travel Scholarship for Root Short Course, University of Florida  
 2016 Outstanding Graduate Student Award, Texas Plant Protection Association  
 2013 Third Prize Scholarship for Academic Excellence, CAU  
 2012 Japan Student Service Scholarship, Japan Student Service Organization  
 2011 Third Prize Scholarship for Academic Excellence, CAU  
 2010 Second Prize Scholarship for Academic Excellenc, CAU  
 2010 National Scholarship for Encouragement, Ministry of Education in China  
-2010 Merit Undergrate Student Award, CAU 
+2010 Honor Undergrate Student Award, CAU 
 
 # Research Experience 
 ```{r research}
